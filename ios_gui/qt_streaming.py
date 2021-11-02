@@ -17,7 +17,7 @@ import sys
 
 
 def main():
-    with gui_qt("IOS Streraming"):
+    with gui_qt("IOS Streaming"):
         message_bus_address = sys.argv[-1]
         dispatcher = RemoteDispatcher(message_bus_address)
 
